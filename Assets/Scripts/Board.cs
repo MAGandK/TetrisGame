@@ -11,7 +11,7 @@ public class Board : MonoBehaviour
   public Vector3Int SpawnPosition;
   public Vector2Int BoardSize = new Vector2Int(16, 20);
   [SerializeField] private TextMeshProUGUI _scoreText;
-  private int _score = 100;
+  private int _score = 0;
 
   public RectInt Bounds
   {
